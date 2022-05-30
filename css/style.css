@@ -94,7 +94,7 @@ body {
 	width: 1280px;
 	height: auto;
 	background: #fff;
-	margin: 40px auto;
+	margin: 10px auto;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .sidebar-section {
@@ -224,4 +224,17 @@ body {
 .comand-social-icon
 {fill: #afb1b8;}
 
+.translation {
+	display: flex;
+	padding-top: 10px;
+	padding-left: 1170px;
+}
 
+.translation_flag {
+padding-left: 25px;
+
+}
+
+.flag {
+	border-radius: 100px;
+}
