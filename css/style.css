@@ -109,19 +109,31 @@ body {
 }
 .indent {
 	margin: 50px 40px;
+	
 }
+
+
 .sidebar-title {
 	font-weight: bold;
 	font-size: 22px;
 	margin: 0 0 8px 0;
 }
+
+.sidebar-title-pre {
+font-weight: bold;
+	font-size: 15px;
+	margin: 10px 0 8px 0;
+}
 .contacts-type {
 	font-weight: bold;
 	margin-right: 10px;
+	
 }
+
+
 .contacts-link {
+	
 	color: #ffffff;
-	opacity: 0.5;
 }
 .indent > p {
 	font-size: 14px;
@@ -138,7 +150,7 @@ body {
 }
 
 .info-section {
-	margin: 100px 215px 100px 90px;
+	margin: 50px 215px 100px 90px;
 }
 
 .my-job {
@@ -156,10 +168,14 @@ body {
 }
 .my-info {
 	line-height: 24px;
-	color: #595959;
+	color: #000000;
 	padding-bottom: 40px;
 	width: 400px;
+	width: 100%;
+	text-align: justify;
 }
+
+
 .experience-titel {
 	font-size: 22px;
 	font-weight: bold;
@@ -172,24 +188,13 @@ body {
 }
 .work-items {
 	line-height: 24px;
-	color: #595959;
+	color: black;
 	padding-bottom: 15px;
 	padding-left: 18px;
 }
-.project-list {
-	font-weight: bold;
-	line-height: 24px;
-	padding-left: 18px;
-	padding-bottom: 50px;
-}
 
-.project-list > li > a {
-	padding-left: 10px;
-	color: #595959;
-}
-.project-list > li > b > span {
-	color: #595959;
-}
+
+
 .item-date-place {
 	font-size: 12px;
 	color: #a8a8a8;
@@ -220,20 +225,47 @@ body {
 }
 
 
-.comand-social-icon
-{fill: #afb1b8;}
-
-.translation {
-	display: flex;
-	padding-top: 10px;
-	padding-left: 1170px;
+.project-secion {
+	margin-bottom: 25px;
 }
 
-.translation_flag {
-padding-left: 25px;
-
+.projects-list {
+	padding-left: 17px;
+	color: black;
 }
 
-.flag {
-	border-radius: 100px;
+.my-project-item {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+}
+
+.my-project-item a {
+	color: gray;
+}
+
+.my-project-item a:hover {
+	color: #fb6d3a;
+}
+
+.my-project-text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+	margin-left: 5px;
+}
+
+.my-project-link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.my-project-description {
+	margin: 8px 0;
 }
