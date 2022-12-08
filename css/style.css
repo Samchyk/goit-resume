@@ -259,6 +259,37 @@ font-weight: bold;
 	margin-left: 5px;
 }
 
+.my-certificate-item {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	color: black;
+}
+
+.my-certificate-item a {
+	color: fb6d3a;
+}
+
+.my-certificate-item a:hover {
+	color: #fb6d3a;
+}
+
+.my-certificate-text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+	margin-left: 5px;
+}
+.my-certificate-link {
+	font-weight: bold;
+	font-size: 16px;
+	color: #fb6d3a;
+	padding-bottom: 10px;
+}
+
 .my-project-link {
 	font-style: normal;
 	font-weight: normal;
