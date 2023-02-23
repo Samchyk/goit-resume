@@ -94,30 +94,43 @@ body {
   width:100%;
   height: auto;
   background: #fff;
-  margin: 10px 10px;
+  /* margin: 10px 10px; */
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   justify-content: center;
+  
 }
 .sidebar-section {
-  background: #1e2939;
+  background: #141414;
   color: #fff;
-  padding: 40px 0;
+  padding: 10px 0 0 0 ;
   width: 370px;
   height: auto;
 }
 .sidebar-section-photo img {
   width: 370px;
   height: auto;
+  border-radius: 10%;
+  padding:10px 10px 0;
+  z-index: 2;
+
 }
 .indent {
   margin: 50px 40px;
 }
 
+
+
 .sidebar-title {
+  text-align: center;
   font-weight: bold;
   font-size: 22px;
   margin: 0 0 8px 0;
+  background: rgba(110, 110, 109, 0.5);
+  box-shadow: rgba(99, 100, 95, 0.5);
+  border-radius: 35%;
 }
+
+
 
 .sidebar-title-pre {
   font-weight: bold;
@@ -147,7 +160,7 @@ body {
 }
 
 .info-section {
-  margin: 50px 215px 100px 90px;
+  margin: 20px 215px 20px 90px;
 }
 
 .my-job {
